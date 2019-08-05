@@ -1,0 +1,22 @@
+:host /deep/ ng2-smart-table { 
+    font-size: 16px; 
+}
+
+.top-bar {
+    background-image: url(/static/images/home_banner.png),linear-gradient(-134deg,#c5e2f8 0%,#aefbdf 100%);
+    max-width: 1906px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 40px;
+    margin: 0px;
+}
+
+.smart-table-container {
+    padding: 56px;
+}
+.tag-line {
+    text-align: center;
+    font-size: 18px !important;
+    padding-top: 5px;
+}

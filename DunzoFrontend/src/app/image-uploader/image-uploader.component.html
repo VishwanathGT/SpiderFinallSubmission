@@ -1,0 +1,23 @@
+<div class="container top-bar">
+  <div>
+    <h3 class="tag-line">Many needs, One stop by Spider</h3>
+  </div>
+</div>
+
+<div class="image-uploader-space">
+</div>
+
+<div class="moving-img"></div>
+<div class="upload-container">
+  <div class="row margin-style">
+    <div class="col-md-6 offset-md-3">
+      <h3>Upload a bill</h3>
+      <div class="form-group">
+        <input type="file" name="file" id="file" (change)="onFileChanged($event)" />
+      </div>
+      <div class="form-group">
+        <button class="btn-primary" (click)="onUpload()">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>

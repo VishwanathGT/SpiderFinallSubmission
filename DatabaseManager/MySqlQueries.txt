@@ -1,0 +1,22 @@
+CREATE DATABASE DUNZO;
+
+use dunzo;
+
+CREATE TABLE SHOPDETAILS (
+    shopid int NOT NULL AUTO_INCREMENT,
+    shopname varchar(255) NOT NULL,
+    address varchar(255),
+    phno varchar(25),
+    PRIMARY KEY (shopid)
+);
+
+CREATE TABLE ITEMDETAILS(
+    date VARCHAR(255),
+    itemname VARCHAR(255),
+	price VARCHAR(255),
+	shopid int,
+    FOREIGN KEY (shopid) REFERENCES SHOPDETAILS(shopid)
+);
+
+insert into SHOPDETAILS (shopname, address, phno) values ('test','test','0987654');
+insert into ITEMDETAILS (date, itemname, price, shopid) values ('test','test','90',1);

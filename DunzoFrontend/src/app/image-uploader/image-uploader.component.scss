@@ -1,0 +1,51 @@
+.top-bar {
+    background-image: url(/static/images/home_banner.png),linear-gradient(-134deg,#c5e2f8 0%,#aefbdf 100%);
+    max-width: 1922px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 40px;
+    margin: 0px;
+}
+.tag-line {
+    text-align: center;
+    font-size: 18px !important;
+    padding-top: 5px;
+}
+.image-uploader-space {
+    margin: 20px;
+}
+.upload-container {
+    border: 1px dotted;
+    height: 290px;
+    border-radius: 21px;
+    margin: 00px 100px 100px 100px;
+    
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymove {
+  from {left: 0px;}
+  to {left: 1500px;}
+}
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 1500px;}
+}
+
+.margin-style {
+    padding-top: 70px;
+    padding-left: 330px;
+}
+.moving-img {
+    height: 200px;
+    background-image: url(../../assets/images/dunzo_bike.jpg); //,linear-gradient(-134deg,#c5e2f8 0%,#aefbdf 100%
+    background-size: contain;
+    background-repeat: no-repeat;
+    // background-position: center;
+    position: relative;
+  -webkit-animation: mymove 10s infinite; /* Safari 4.0 - 8.0 */
+  animation: mymove 10s infinite;  
+  animation-fill-mode: forwards;
+}
